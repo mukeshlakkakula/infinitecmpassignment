@@ -1,0 +1,128 @@
+.leftContainer {
+  background-color: #9b76d6;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.outerContainer {
+  display: flex;
+}
+
+.icons {
+  width: 15px;
+  height: 15px;
+}
+
+.dashboard {
+  width: Fill (241px) px;
+  height: Hug (43px) px;
+  padding: 12px 8px 12px 24px;
+  gap: 12px;
+  opacity: 0px;
+
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  color: #befb7a;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(190, 251, 122, 0) 42.53%,
+    #befb7a 230.08%
+  );
+
+  border-right: 3px solid #befb7a;
+}
+
+.imglogo {
+  width: 132.07px;
+  height: 57.95px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+hr {
+  border-width: 100%;
+  border: 1px solid #bba1e3;
+}
+
+.underdashboardleftContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 70%;
+}
+
+.underdashboardRightContainer {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 30%;
+}
+
+.loginFullContainer {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.notdashboard {
+  width: Fill (241px) px;
+  height: Hug (43px) px;
+  padding: 12px 8px 12px 24px;
+  gap: 12px;
+  opacity: 0px;
+
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightContainer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dashbardHeading {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  background: #fcfcfd;
+}
+
+.underDashboardContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
