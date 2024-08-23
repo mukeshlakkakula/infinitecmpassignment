@@ -135,6 +135,21 @@ hr {
 }
 
 @media (max-width: 786px) {
+  .underDashboardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .underdashboardleftContainer {
+    min-height: auto;
+    width: 100%;
+  }
+  .underdashboardRightContainer {
+    width: 100%;
+  }
+
+  .loginContainer {
+    width: 100%;
+  }
   .loginFullContainer {
     display: flex;
     flex-direction: column;
@@ -164,7 +179,9 @@ hr {
     font-size: 12px;
   }
   .p05 {
-    font-size: 10px;
+    font-size: 8px;
+    display: flex;
+    width: 100%;
   }
   .img05 {
     width: 30px;
