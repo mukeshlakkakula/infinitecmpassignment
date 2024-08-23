@@ -26,6 +26,7 @@
   margin: 0px;
   display: flex;
   color: #befb7a;
+
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -86,7 +87,7 @@ hr {
 
 .loginContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -125,4 +126,49 @@ hr {
   display: flex;
   gap: 20px;
   justify-content: space-around;
+}
+
+.imgc05 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 786px) {
+  .loginFullContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoContainer {
+    width: 100%;
+    padding: 20px;
+  }
+  .imglogo {
+    width: 50px;
+    height: auto;
+  }
+
+  .notdashboard {
+    font-size: 12px;
+    padding: 7px;
+  }
+
+  .dashboard {
+    font-size: 12px;
+    padding: 7px;
+  }
+
+  .h05 {
+    font-size: 12px;
+  }
+  .p05 {
+    font-size: 10px;
+  }
+  .img05 {
+    width: 30px;
+    display: flex;
+    align-items: center;
+  }
 }
